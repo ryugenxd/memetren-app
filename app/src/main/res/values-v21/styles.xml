@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+       <item name="android:windowNoTitle">true</item>
+       <item name="android:windowActionBar">false</item>
+       <item name="android:colorPrimary">#00ff8b</item>
+    </style> -->
+    
+    <style name="AppTheme" parent="android:Theme.Material">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:colorPrimary">#FFFFFF</item>
+        <item name="android:colorPrimaryDark">#263238</item>
+        <item name="android:colorAccent">#00ff8b</item>
+    </style>
+
+
+</resources>

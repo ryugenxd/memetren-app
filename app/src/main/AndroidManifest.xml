@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+<!-- set label name for app -->
+    <application 
+        android:allowBackup="true"
+        android:icon="@drawable/memetren"
+        android:label="MemeTren"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+    >
+    <!-- it contains one activity -->
+        <activity android:name=".MainActivity">
+        <!-- it contains a launcher activity -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Memetren"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,21 @@
+// list of repositories to find plugins
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+  }
+}
+
+//list repositories to find packages & libraries
+dependencyResolutionManagement {
+     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+//name of gradle project
+rootProject.name = 'myApps'
+//include sub-project in app folder
+include 'app'
